@@ -1,0 +1,33 @@
+/** This put all the text and image in the center of the page **/
+body {
+    text-align: center;
+}
+/** this caracterize the navegation bar **/
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+/** This change the letters color bar **/
+a {
+    color: white;
+    margin: 40px;
+}
+/** this change the bigger text H1 **/
+h1 {
+    color: steelblue;
+}
+/** this change the characteristcs of the image **/
+img {
+    width: 800px;
+    border: 4px solid steelblue;
+}
+/** I'm not sure what it does, but it seems that 
+it change the "padding" of the paragraph and the footer. **/
+p {
+    padding: 10px;
+}
+/** It caracterize the footer zone **/
+footer {
+    background-color:  steelblue;
+    color: white;
+}
