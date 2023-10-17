@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@500&display=swap');
+
+h1:hover {
+    color: black;
+}
+
+h1  {
+    color: white;
+    
+}
+
+body {
+    background-color: rgb(255, 172, 212);
+    text-align: center;
+    margin: auto;
+    max-width: 55ch;
+}
+
+img{
+    margin: 0%;
+    max-width: 30ch;
+    min-width: 20ch;
+}
+
+
+ol {
+    text-align: left;
+}
+
+#different-font {
+    
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto';
+}
+p .cent {
+    text-align: center;
+}

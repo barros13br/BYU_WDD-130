@@ -1,33 +1,39 @@
 /** This put all the text and image in the center of the page **/
-body {
-    text-align: center;
-}
 /** this caracterize the navegation bar **/
-nav {
+nav, footer {
+    text-align: center;
     background-color: steelblue;
     padding: 10px;
 }
 /** This change the letters color bar **/
 a {
+    font-size: 1.5em;
     color: white;
     margin: 40px;
 }
 /** this change the bigger text H1 **/
 h1 {
+    text-align: center;
     color: steelblue;
 }
 /** this change the characteristcs of the image **/
 img {
-    width: 800px;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
     border: 4px solid steelblue;
 }
 /** I'm not sure what it does, but it seems that 
 it change the "padding" of the paragraph and the footer. **/
 p {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
     padding: 10px;
 }
 /** It caracterize the footer zone **/
 footer {
+    text-align: center;
     background-color:  steelblue;
     color: white;
 }
@@ -38,6 +44,20 @@ footer {
 }
 
 #active {
+    background-color: white;
+    color: steelblue;
+}
+
+* {
+    border: 2px solid blue;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+a:hover {
     background-color: white;
     color: steelblue;
 }
